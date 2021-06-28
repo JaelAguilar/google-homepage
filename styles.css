@@ -1,0 +1,23 @@
+body{
+    background-color: "white";
+}
+#header{
+    background-color:gray;
+    height:auto;
+    margin:20px;
+
+}
+#header-left{
+    display:flex;
+    float:left;
+}
+#header-right{
+    display:flex;
+    float:right
+}
+.header-element{
+    padding:15px;
+    font-size: 15px;
+    font-family: "Product Sans";
+    display:inline-block;
+}
