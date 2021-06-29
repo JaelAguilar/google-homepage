@@ -2,22 +2,49 @@ body{
     background-color: "white";
 }
 #header{
-    background-color:gray;
-    height:auto;
-    margin:20px;
 
+    height:auto;
+    margin:10px;
+    height: 60px;
+    align-items: center;
 }
+/*
+#header-left,#header-right{
+    display:inline-block;
+    vertical-align: middle;
+}*/
+
 #header-left{
-    display:flex;
+    display:inline;
+
     float:left;
+    height: 100%;
+    position:relative;
+    align-items:center;
 }
 #header-right{
-    display:flex;
-    float:right
+    display:inline;
+
+    float:right;
+    height: 100%;
+    position:relative;
+    align-items:center;
 }
 .header-element{
-    padding:15px;
-    font-size: 15px;
-    font-family: "Product Sans";
     display:inline-block;
+    position:relative;
+    /*overflow:auto;
+    margin:auto;
+*/
+    height:100%;
+    vertical-align: middle;
+    padding:10px;
+    font-size: 15px;
+    font-family: "Arial","Product Sans";
+    color:gray;
+}
+
+.material-icons{
+    color:gray;
+    height:1ex;
 }
