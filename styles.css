@@ -2,11 +2,19 @@ body{
     background-color: "white";
 }
 #header{
-
+    position:fixed;
+    top:0;
     height:auto;
     margin:10px;
     height: 60px;
     align-items: center;
+
+    width:100%;
+}
+#footer{
+    position:fixed;
+    bottom:0;
+
 }
 /*
 #header-left,#header-right{
@@ -15,15 +23,17 @@ body{
 }*/
 
 #header-left{
-    display:inline;
+    display:table-cell;
 
     float:left;
     height: 100%;
     position:relative;
     align-items:center;
+    vertical-align: middle;
 }
 #header-right{
-    display:inline;
+
+    display:flex;
 
     float:right;
     height: 100%;
@@ -32,13 +42,14 @@ body{
 }
 .header-element{
     display:inline-block;
-    position:relative;
+    /*position:relative;*/
     /*overflow:auto;
     margin:auto;
 */
-    height:100%;
-    vertical-align: middle;
-    padding:10px;
+
+    /*height:100%;*/
+    /*vertical-align:100%;*/
+    padding:20px;
     font-size: 15px;
     font-family: "Arial","Product Sans";
     color:gray;
