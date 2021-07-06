@@ -88,6 +88,24 @@ body{
     border-width:0;
     border:none;
 }
+#actual-input-box:focus {
+    outline:none!important;
+}
+
+#search-buttons{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    justify-content: space-between;
+    width:fit-content;
+}
+.search-button{
+    border-width:0;
+    border:none;
+    padding:10px;
+    margin:10px;
+}
 
 
 #google-logo,#search-buttons{
