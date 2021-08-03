@@ -81,7 +81,7 @@ body{
     height:fit-content;
     align-items:center;
 
-    border:1px solid black;
+    border:1px solid gray;
     border-radius: 30px;
 }
 .input-object{
