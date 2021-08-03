@@ -12,6 +12,12 @@ body{
     width:95%;
 }
 
+#github-account{
+    /*height:auto 100px;*/
+    width:30px;
+    border-radius: 50%;
+}
+
 /*
 #header-left,#header-right{
     display:inline-block;
@@ -53,7 +59,9 @@ body{
 
 .material-icons{
     color:gray;
-    height:1ex;
+    /*height:auto 3px;*/
+    width:auto 200px;
+    /*height:1ex;*/
 }
 
 #google-logo{
